@@ -1,6 +1,7 @@
 .main {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 15px;
+    width: 100%;
 
 }
 
@@ -114,9 +115,10 @@
     text-decoration: none;
 
     position: relative;
-    right: 455px;
+    right: 450px;
     top: 7px;
 }
+
 
 
 /* Add task button*/
@@ -185,4 +187,166 @@
 
 .menu__link:hover:after {
     opacity: 1;
+}
+
+
+
+
+/*    Main CONTENT     */
+
+
+.conteiner {
+    display: flex;
+    background-color: #F4F4F4;
+}
+
+/* Content5 */
+
+.conteiner__content5 {
+    max-width: 333px;
+    height: 195px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.planning__btn-planning {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 17px;
+
+    border-radius: 5px;
+    color: #739EB6;
+    background-color: #BEE8FF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+
+    position: relative;
+    left: 24px;
+}
+
+.planning__dots {
+    position: relative;
+    top: 5px;
+    left: 180px;
+}
+
+.inside__text {
+    font-style: normal;
+    font-size: 19px;
+    position: relative;
+    left: 24px;
+    color: #252525;
+    font-style: 600px;
+    margin-top: 6px;
+}
+
+.content5__people {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    left: 24px;
+    bottom: 15px;
+}
+
+.people__imageTwo {
+    position: relative;
+    left: -13px;
+}
+
+.people__imageThree {
+    position: relative;
+    left: -27px;
+}
+
+.people__imageFour {
+    position: relative;
+    left: -40px;
+}
+
+.people__count {
+    position: relative;
+    left: -30px;
+}
+
+.content5__data {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 24px;
+}
+
+.number__data {
+    position: relative;
+    left: 5px;
+    top: 1px;
+    font-size: 13px;
+    color: #A8A8A8;
+    bottom: 20px;
+}
+
+/* Content6 */
+
+.conteiner__content6 {
+    max-width: 333px;
+    height: 195px;
+    background-color: #fff;
+}
+
+.uxTitle__btn-ux {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 17px;
+
+    border-radius: 5px;
+    color: #A89A67;
+    background-color: #FFF1BE;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+
+    position: relative;
+    left: 24px;
+    margin-top: 20px;
+}
+
+.uxTitle__dots {
+    position: relative;
+    top: 5px;
+    left: 250px;
+    margin-top: 20px;
+}
+
+.inside-1__text {
+    font-style: normal;
+    font-size: 19px;
+    position: relative;
+    left: 24px;
+    color: #252525;
+    font-style: 600px;
+    margin-top: 6px;
+}
+
+.content6__people-2 {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    left: 24px;
+    bottom: 10px;
+}
+
+.people-2__imageTwo {
+    position: relative;
+    left: -13px;
+}
+
+.content6__data {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 24px;
 }
