@@ -2,6 +2,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     margin: 15px;
     width: 100%;
+    min-width: 800px;
 
 }
 
@@ -14,6 +15,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #F4F4F4;
+    padding-bottom: 10px;
 }
 
 .logo__title {
@@ -75,29 +78,17 @@
     background-color: transparent;
 }
 
-/* Lines */
-
-.line1 {
-    width: auto;
-}
-
-.line2 {
-    width: auto;
-    margin-bottom: 20px;
-}
-
-
-.content2__title {
+.content-title__name {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
 }
 
-
-.title__text {
-    margin-top: 30px;
-    position: relative;
+.name__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
 }
 
 
@@ -113,12 +104,7 @@
     color: #62B452;
     background-color: #C7FFBE;
     text-decoration: none;
-
-    position: relative;
-    right: 450px;
-    top: 7px;
 }
-
 
 
 /* Add task button*/
@@ -133,9 +119,6 @@
     background-color: #D65151;
     text-decoration: none;
     font-size: 14px;
-
-    position: relative;
-    top: 7px;
 }
 
 .content3__users-count {
@@ -148,6 +131,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    border-bottom: 2px solid #F4F4F4;
+    margin-bottom: 5px;
 }
 
 .content4__menu {
@@ -200,13 +185,36 @@
     background-color: #F4F4F4;
 }
 
+
+/* Icon and Number data  */
+
+.icon__data {
+    margin-left: 24px;
+}
+
+.number__data {
+    font-size: 13px;
+    color: #A8A8A8;
+}
+
 /* Content5 */
 
-.conteiner__content5 {
+.wrapper-planning {
     max-width: 333px;
-    height: 195px;
+    max-height: 195px;
     background-color: #fff;
     margin: 10px;
+}
+
+.caption__text {
+    margin-left: 15px;
+}
+
+.content5__planning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
 }
 
 .planning__btn-planning {
@@ -221,16 +229,11 @@
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-
-    position: relative;
-    left: 24px;
-}
-
-.planning__dots {
-    position: relative;
     top: 5px;
-    left: 180px;
+
+
 }
+
 
 .inside__text {
     font-style: normal;
@@ -238,7 +241,7 @@
     position: relative;
     left: 24px;
     color: #252525;
-    font-style: 600px;
+    font-style: 500px;
     margin-top: 6px;
 }
 
@@ -248,7 +251,6 @@
 
     position: relative;
     left: 24px;
-    bottom: 15px;
 }
 
 .people__imageTwo {
@@ -274,25 +276,27 @@
 .content5__data {
     display: flex;
     align-items: center;
-    position: relative;
-    left: 24px;
+    gap: 3px;
 }
 
-.number__data {
-    position: relative;
-    left: 5px;
-    top: 1px;
-    font-size: 13px;
-    color: #A8A8A8;
-    bottom: 20px;
-}
 
-/* Content6 */
 
-.conteiner__content6 {
+
+
+/* conteiner__uxReview */
+
+.conteiner__uxReview {
     max-width: 333px;
-    height: 195px;
+    max-height: 195px;
     background-color: #fff;
+    margin: 10px;
+}
+
+.uxReview__uxTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
 }
 
 .uxTitle__btn-ux {
@@ -307,18 +311,8 @@
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-
-    position: relative;
-    left: 24px;
-    margin-top: 20px;
 }
 
-.uxTitle__dots {
-    position: relative;
-    top: 5px;
-    left: 250px;
-    margin-top: 20px;
-}
 
 .inside-1__text {
     font-style: normal;
@@ -326,27 +320,293 @@
     position: relative;
     left: 24px;
     color: #252525;
-    font-style: 600px;
+    font-style: 500px;
     margin-top: 6px;
 }
 
-.content6__people-2 {
+.uxReview__people-2 {
+    margin-left: 24px;
+}
+
+.people-2__imageTwo {
+    margin-left: -17px;
+}
+
+.uxReview__data {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+/* conteiner__in-process */
+
+.wrapper-process {
+    max-width: 333px;
+    max-height: 195px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.design__btn-design {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 6px 17px;
+
+    border-radius: 5px;
+    color: #739EB6;
+    background-color: #BEE8FF;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.in-process__design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.inside-3__text {
+    font-style: normal;
+    font-size: 19px;
+    position: relative;
+    left: 24px;
+    color: #252525;
+    font-style: 500px;
+    margin-top: 6px;
+}
+
+.in-process__people-3 {
+    margin-left: 24px;
+}
+
+.people-3__imageFour {
+    margin-left: -16px;
+}
+
+.in-process__data {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+/*  conteiner__review  */
+
+.wrapper-review {
+    max-width: 333px;
+    max-height: 195px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.review__uxTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.inside-4__text {
+    font-style: normal;
+    font-size: 19px;
+    position: relative;
+    left: 24px;
+    color: #252525;
+    font-style: 500px;
+    margin-top: 6px;
+}
+
+.review__people-4 {
     display: flex;
     align-items: center;
 
     position: relative;
     left: 24px;
-    bottom: 10px;
 }
 
-.people-2__imageTwo {
+.people-4__imageTwo {
     position: relative;
     left: -13px;
 }
 
-.content6__data {
+.people-4__imageThree {
+    position: relative;
+    left: -27px;
+}
+
+.people-4__imageFour {
+    position: relative;
+    left: -40px;
+}
+
+.people-4__count {
+    position: relative;
+    left: -30px;
+}
+
+.review__data {
     display: flex;
     align-items: center;
+    gap: 3px;
+}
+
+
+/*  conteiner__uiDesing  */
+
+.conteiner__uiDesing {
+    max-width: 333px;
+    max-height: 195px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.uiTitle__btn-ui {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 6px 17px;
+
+    border-radius: 5px;
+    color: #A89A67;
+    background-color: #ffbecc;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.uiDesing__uiTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.inside-5__text {
+    font-style: normal;
+    font-size: 19px;
     position: relative;
     left: 24px;
+    color: #252525;
+    font-style: 500px;
+    margin-top: 6px;
+}
+
+.uiDesing__people-5 {
+    margin-left: 24px;
+}
+
+.people-5__imageThree {
+    margin-left: -17px;
+}
+
+.uiDesing__data {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+/*  conteiner__uiOrder  */
+
+.conteiner__uiOrder {
+    max-width: 333px;
+    max-height: 195px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.uiOrder__uiTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.inside-6__text {
+    font-style: normal;
+    font-size: 19px;
+    position: relative;
+    left: 24px;
+    color: #252525;
+    font-style: 500px;
+    margin-top: 6px;
+}
+
+.uiOrder__people-6 {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    left: 24px;
+}
+
+.people-6__imageTwo {
+    position: relative;
+    left: -13px;
+}
+
+.people-6__imageThree {
+    position: relative;
+    left: -27px;
+}
+
+.people-6__imageFour {
+    position: relative;
+    left: -40px;
+}
+
+.people-6__count {
+    position: relative;
+    left: -30px;
+}
+
+.uiOrder__data {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+
+/*  conteiner__done  */
+
+.wrapper-done {
+    max-width: 333px;
+    max-height: 195px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.done__planning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.inside-7__text {
+    font-style: normal;
+    font-size: 19px;
+    position: relative;
+    left: 24px;
+    color: #252525;
+    font-style: 500px;
+    margin-top: 6px;
+}
+
+.done__people-7 {
+    margin-left: 24px;
+}
+
+.people-7__imageFour {
+    margin-left: -17px;
+}
+
+.done__data {
+    display: flex;
+    align-items: center;
+    gap: 3px;
 }
