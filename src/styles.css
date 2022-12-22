@@ -1,7 +1,8 @@
 .main {
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 15px;
+    margin: 15px 0;
     width: 100%;
+    height: 100%;
     min-width: 800px;
 
 }
@@ -188,33 +189,33 @@
 
 /* Icon and Number data  */
 
-.icon__data {
-    margin-left: 24px;
-}
-
 .number__data {
     font-size: 13px;
     color: #A8A8A8;
-}
-
-/* Content5 */
-
-.wrapper-planning {
-    max-width: 333px;
-    max-height: 195px;
-    background-color: #fff;
-    margin: 10px;
 }
 
 .caption__text {
     margin-left: 15px;
 }
 
-.content5__planning {
+/* Conteiner__need-do */
+
+.wrapper-planning {
+    display: flex;
+    flex-direction: column;
+    max-width: 333px;
+    max-height: 195px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.need-do__planning {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
 }
 
 .planning__btn-planning {
@@ -229,9 +230,6 @@
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    top: 5px;
-
-
 }
 
 
@@ -239,18 +237,17 @@
     font-style: normal;
     font-size: 19px;
     position: relative;
-    left: 24px;
     color: #252525;
     font-style: 500px;
     margin-top: 6px;
 }
 
-.content5__people {
+.need-do__people {
     display: flex;
     align-items: center;
 
     position: relative;
-    left: 24px;
+    top: -15px;
 }
 
 .people__imageTwo {
@@ -273,10 +270,11 @@
     left: -30px;
 }
 
-.content5__data {
+.need-do__data {
     display: flex;
     align-items: center;
     gap: 3px;
+    margin-top: -18px;
 }
 
 
@@ -286,17 +284,21 @@
 /* conteiner__uxReview */
 
 .conteiner__uxReview {
+    display: flex;
+    flex-direction: column;
     max-width: 333px;
     max-height: 195px;
+    overflow: hidden;
     background-color: #fff;
     margin: 10px;
+    padding: 24px;
+    border-radius: 7px;
 }
 
 .uxReview__uxTitle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
 }
 
 .uxTitle__btn-ux {
@@ -318,14 +320,9 @@
     font-style: normal;
     font-size: 19px;
     position: relative;
-    left: 24px;
     color: #252525;
     font-style: 500px;
     margin-top: 6px;
-}
-
-.uxReview__people-2 {
-    margin-left: 24px;
 }
 
 .people-2__imageTwo {
@@ -341,10 +338,15 @@
 /* conteiner__in-process */
 
 .wrapper-process {
+    display: flex;
+    flex-direction: column;
     max-width: 333px;
     max-height: 195px;
+    overflow: hidden;
     background-color: #fff;
     margin: 10px;
+    padding: 24px;
+    border-radius: 7px;
 }
 
 .design__btn-design {
@@ -365,22 +367,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
 }
 
 .inside-3__text {
     font-style: normal;
     font-size: 19px;
     position: relative;
-    left: 24px;
     color: #252525;
     font-style: 500px;
     margin-top: 6px;
 }
 
-.in-process__people-3 {
-    margin-left: 24px;
-}
 
 .people-3__imageFour {
     margin-left: -16px;
@@ -396,24 +393,27 @@
 /*  conteiner__review  */
 
 .wrapper-review {
+    display: flex;
+    flex-direction: column;
     max-width: 333px;
     max-height: 195px;
+    overflow: hidden;
     background-color: #fff;
     margin: 10px;
+    padding: 24px;
+    border-radius: 7px;
 }
 
 .review__uxTitle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
 }
 
 .inside-4__text {
     font-style: normal;
     font-size: 19px;
     position: relative;
-    left: 24px;
     color: #252525;
     font-style: 500px;
     margin-top: 6px;
@@ -424,7 +424,7 @@
     align-items: center;
 
     position: relative;
-    left: 24px;
+    top: 5px;
 }
 
 .people-4__imageTwo {
@@ -451,16 +451,22 @@
     display: flex;
     align-items: center;
     gap: 3px;
+    margin-bottom: 5px;
 }
 
 
 /*  conteiner__uiDesing  */
 
 .conteiner__uiDesing {
+    display: flex;
+    flex-direction: column;
     max-width: 333px;
     max-height: 195px;
+    overflow: hidden;
     background-color: #fff;
     margin: 10px;
+    padding: 24px;
+    border-radius: 7px;
 }
 
 .uiTitle__btn-ui {
@@ -481,21 +487,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
 }
 
 .inside-5__text {
     font-style: normal;
     font-size: 19px;
     position: relative;
-    left: 24px;
     color: #252525;
     font-style: 500px;
     margin-top: 6px;
 }
 
 .uiDesing__people-5 {
-    margin-left: 24px;
+    margin-top: 15px;
 }
 
 .people-5__imageThree {
@@ -506,30 +510,34 @@
     display: flex;
     align-items: center;
     gap: 3px;
+    margin-bottom: 5px;
 }
 
 
 /*  conteiner__uiOrder  */
 
 .conteiner__uiOrder {
+    display: flex;
+    flex-direction: column;
     max-width: 333px;
     max-height: 195px;
+    overflow: hidden;
     background-color: #fff;
     margin: 10px;
+    padding: 24px;
+    border-radius: 7px;
 }
 
 .uiOrder__uiTitle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
 }
 
 .inside-6__text {
     font-style: normal;
     font-size: 19px;
     position: relative;
-    left: 24px;
     color: #252525;
     font-style: 500px;
     margin-top: 6px;
@@ -540,7 +548,6 @@
     align-items: center;
 
     position: relative;
-    left: 24px;
 }
 
 .people-6__imageTwo {
@@ -574,31 +581,30 @@
 /*  conteiner__done  */
 
 .wrapper-done {
+    display: flex;
+    flex-direction: column;
     max-width: 333px;
     max-height: 195px;
+    overflow: hidden;
     background-color: #fff;
     margin: 10px;
+    padding: 24px;
+    border-radius: 7px;
 }
 
 .done__planning {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px;
 }
 
 .inside-7__text {
     font-style: normal;
     font-size: 19px;
     position: relative;
-    left: 24px;
     color: #252525;
     font-style: 500px;
     margin-top: 6px;
-}
-
-.done__people-7 {
-    margin-left: 24px;
 }
 
 .people-7__imageFour {
