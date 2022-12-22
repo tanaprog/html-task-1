@@ -83,7 +83,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
+
 
 .name__heading {
     display: flex;
@@ -122,13 +124,21 @@
     font-size: 14px;
 }
 
-.content3__users-count {
-    margin-top: -15px;
+.people__users-count {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+.users-count__count {
+    color: rgb(177, 176, 176);
 }
 
 /* Menu */
 
-.content4 {
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -136,7 +146,7 @@
     margin-bottom: 5px;
 }
 
-.content4__menu {
+.navigation__menu {
     position: relative;
     margin-top: 25px;
     right: 10px;
