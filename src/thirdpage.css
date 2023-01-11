@@ -86,10 +86,130 @@
     margin-top: 30px;
 }
 
+.wrapper-content {
+    display: flex;
+    justify-content: space-between;
+}
 
 .name__heading {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    color: rgb(177, 176, 176);
+    font-size: 18px;
+    gap: 10px;
+    margin-top: -20px;
+}
+
+.main-title {
+    margin-top: -15px;
+}
+
+.do-lending {
+    font-size: 46px;
+}
+
+.description {
+    margin-top: 93px;
+}
+
+.text-description {
+    color: rgb(177, 176, 176);
+    font-size: 18px;
+}
+
+.main-content {
+   width: 72%;
+}
+
+.aside {
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    border-left: 3px solid #F4F4F4;;
+}
+
+/* table-task */
+
+.table-task {
+    margin-left: 24px;
+    margin-top: 22px;
+}
+
+.table-task__label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.label-name {
+    color: rgb(177, 176, 176);
+}
+
+.table-task__users {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.user-name {
+    color: rgb(177, 176, 176);
+}
+
+.table-task__urgency {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 260px;
+}
+
+.urgency-name {
+    color: rgb(177, 176, 176);
+}
+
+.table-task__date-create {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.date {
+    color: rgb(177, 176, 176);
+}
+
+/* table-name */
+
+.table-name {
+    margin-right: 50px;
+    margin-top: 33px;
+}
+
+.btn-planning {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 17px;
+    pointer-events: none;
+
+    border-radius: 5px;
+    color: #739EB6;
+    background-color: #BEE8FF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.table-name__users-name>p {
+    font-size: 18px;
+    font-weight:600;
+    margin-top: 25px;
+}
+
+.table-name__high {
+    margin-top: 148px;
+}
+
+.high-name {
+    font-size: 18px;
+    font-weight:600;
 }
